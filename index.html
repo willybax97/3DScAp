@@ -3,23 +3,44 @@
 	<head>
 		<title>Prova html</title>
 		<style>
-			li	{
-				float:left;
+			#Current, .main-menu li:hover {
+				font-weight: bold;
+				background-color: #000066;
+				color: #66c;
 			}
-			
-			a {
-				display:block;
-				width:60px;
-			}	
+			#Current {
+				width: 22%;
+			}
+			.main-menu li {
+				float: left;
+				color: #000066;
+				padding: 0px 0px 0px 0px;
+				background: #6666cc;
+				width: 13%;
+				border-left: 0px;
+				text-align: center;
+			}
+			.main-menu {
+				position: fixed;
+				width: 100%;
+				margin: 0px 0px 0px 0px;
+				right: 0;
+				top: 0;
+				height: 6%;
+				list-style-type: none;
+			}
 		</style>
 	</head>
 	
 	<body>
-		<ul>
-			<li>Prova 1</li>
-			<li>Prova 2</li>
-			<li>Prova 3</li>
-			<li><a href="html/prova4.html">Prova 4</a></li>
+		<ul class="main-menu">
+      <li id="Current">Ciao</li>
+      <li><a href="#">Prova 2</a></li>
+      <li><a href="#">Prova 3</a></li>
+      <li><a href="html/prova4.html">Prova 4</a></li>
+      <li><a href="#">Prova 5</a></li>
+      <li><a href="#">Prova 6</a></li>
+			<li><a href="#">Prova 4</a></li>
 		</ul>
 	</body>
 </html>
