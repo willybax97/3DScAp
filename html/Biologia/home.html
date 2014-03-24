@@ -5,54 +5,48 @@
             position:absolute;
             top:6%;
          }
-         .main-menu {
-            background-color:#009999;
-            position:fixed;
-            padding:0px;
-            width: 100%;
-            margin: 0px 0px 0px 0px;   
-            border-spacing: 0px;
-            right:0;
-            left:0;
-            top:0;
-            height: 6%;
-         }
-         .main-menu th, .main-menu td:hover {
-            color:#6666CC;
-            background: #000066;
-            border-color:#000066;
-            font-weight:bold;
-         }
-         .main-menu th {
-            width:22%;   
-         }
-         .main-menu td {
-            color: #000066;
-            border: 2px solid;
-            padding: 0px 0px 0px 0px;
-            background: #6666cc;
-            width: 13%;
-            border-left:0px;
-            text-align:center;
-         }
-      </style>
-</head>
-	<body>
-<!-- Menu -->
-      <table class="main-menu">
-         <tr class=tr-menu>
-            <th>Biologia</th>
-            <td>Hello</td>
-            <td>Hello</td>
-            <td>Hello</td>
-            <td>Hello</td>
-            <td>Hello</td>
-            <td>Hello</td>
-      </table>
-<!-- End Menu Start body -->
-</body>
+         <style>
+			#Current, .main-menu li:hover {
+				font-weight: bold;
+				background-color: #000066;
+				color: #66c;
+			}
+			#Current {
+				width: 20.8%;
+			}
+			.main-menu li {
+				float: left;
+				color: #000066;
+				padding: 0px 0px 0px 0px;
+				background: #6666cc;
+				width: 11.8%;
+				border-left: 0px;
+				text-align: center;
+				height: 57%;
+				padding: 0.6%;
+			}
+			.main-menu {
+				position: fixed;
+				width: 100%;
+				margin: 0px 0px 0px 0px;
+				right: 0;
+				top: 0;
+				height: 5%;
+				list-style-type: none;
+			}
+		</style>
+	</head>
 
-        <body>
+	<body>
+		<ul class="main-menu">
+			<li id="Current"><a href="../Biologia/home.html">Biologia</a></li> 
+			<li><a href="../../index.html">Home</a></li>
+      			<li><a href="../Astronomia/home.html">Astronomia</a></li>
+      			<li><a href="../Fisica/home.html">Fisica</a></li>
+			<li><a href="../Matematica/home.html">Matematica</a></li>
+			<li><a href="../Informatica/home.html">Informatica</a></li>
+			<li><a href="../Team6/home.html">Team6</a></li>
+		</ul>
 <body background="img/sfondo1.jpg">
 <br>
 <br>
