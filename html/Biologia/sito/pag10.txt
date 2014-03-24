@@ -1,0 +1,121 @@
+<html>
+	<head><style>
+         body {
+            position:absolute;
+            top:6%;
+         }
+         .main-menu {
+            background-color:#009999;
+            position:fixed;
+            padding:0px;
+            width: 100%;
+            margin: 0px 0px 0px 0px;   
+            border-spacing: 0px;
+            right:0;
+            left:0;
+            top:0;
+            height: 6%;
+         }
+         .main-menu th, .main-menu td:hover {
+            color:#6666CC;
+            background: #000066;
+            border-color:#000066;
+            font-weight:bold;
+         }
+         .main-menu th {
+            width:22%;   
+         }
+         .main-menu td {
+            color: #000066;
+            border: 2px solid;
+            padding: 0px 0px 0px 0px;
+            background: #6666cc;
+            width: 13%;
+            border-left:0px;
+            text-align:center;
+         }
+      </style>
+</head>
+	<body>
+<!-- Menu -->
+      <table class="main-menu">
+         <tr class=tr-menu>
+            <th>Biologia</th>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+      </table>
+<!-- End Menu Start body -->
+</body>
+
+        <body>
+<body background="../img/sfondo1.jpg">
+
+<table>
+<tr>
+<td><img width="400" height="250" src="../img/batteri.jpg" alt="batteri"></td>
+
+<td>
+<center>
+<table width="500" height="500">  
+
+       <table background="../img/bianco.jpg">
+<tr><td><h1>INDICE</h1></td>  </tr>
+<tr><td><a href="../Home.html"><big>HOME</big></a></td></tr>
+<tr><td><a href="pag1.html"><big>1.Immuno terapia contro i tumori</big></td></a></tr>
+<tr><td><a href="pag2.html"><big>2.CRISPR, il bisturi genetico</big></td></a></tr>
+<tr><td><a href="pag3.html"><big>3.Celle solari a perovskite</big></td></a></tr>
+<tr><td><a href="pag4.html"><big>4.Progettare vaccini con la biologia strutturale</big></td></a></tr>
+<tr><td><a href="pag5.html"><big>5.CLARITY, il cervello trasparente</big></td></a></tr>
+<tr><td><a href="pag6.html"><big>6.I mini-organi</big></td></a></tr>
+<tr><td><a href="pag7.html"><big>7.Raggi cosmici dalle supernove</big></td></a></tr>
+<tr><td><a href="pag8.html"><big>8.Embrioni umani clonati</big></td></a></tr>
+<tr><td><a href="pag9.html"><big>9.Perché dormiamo? Per lasciare spazio alle "pulizie"</big></td></a></tr>
+<tr><td><a href="pag10.html"><big>10.universo batterico nel nostro organismo</big></td></a></tr>
+</table>
+</center>
+</td>
+
+<td><img width="400" height="250" src="../img/batteri1.jpg" alt="batteri"></td>
+
+</td>
+</tr>
+</table>
+
+<tr>
+<td>
+
+<table>
+<table width="1000" height="1000">
+<table background="../img/bianco.jpg">
+<tr>
+<td>
+<p>
+il corpo umano contiene mille miliardi di cellule batteriche, ospitate per lo più nell'apparato digerente 
+e in particolare nell'intestino, che formano quello che viene chiamato biota. Gli scienziati stanno chiarendo 
+molti processi utili al mantenimento dello stato di salute, soprattutto quelli coinvolti nel processi di digestione
+ e delle difese immunitarie, che coinvolgono proprio il biota intestinale. Alcune terapie antitumorali, per esempio, 
+necessitano del buon funzionamento dei microrganismi del nostro intestino per essere efficaci, come dimostrato quest'
+anno da uno studio pubblicato su "Nature". Altri collegamenti prima sconosciuti riguardano la mancanza di specifici ceppi 
+batterici e l'insorgenza di un tumore del fegato riscontrato con più frequenza nei soggetti obesi, come dimostrato in due
+ studi pubblicati su "Science". In futuro, la medicina sempre più personalizzata dovrà tenere conto di questo universo 
+batterico che alberga nel nostro intestino.
+</p>
+
+</td>
+</tr>
+</table>
+<center>
+<table>
+<tr>
+<td><img width="400" height="300" src="../img/batteri2.jpg" alt="batteri"></td>
+<td><img width="400" height="300" src="../img/batteri4.jpg" alt="batteri"></td>
+<td><img width="400" height="300" src="../img/batteri3.jpg" alt="batteri"></td>
+</tr>
+</table>
+</center>
+</body>
+</html>
