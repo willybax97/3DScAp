@@ -4,59 +4,56 @@
             position:absolute;
             top:6%;
          }
-         .main-menu {
-            background-color:#009999;
-            position:fixed;
-            padding:0px;
-            width: 100%;
-            margin: 0px 0px 0px 0px;   
-            border-spacing: 0px;
-            right:0;
-            left:0;
-            top:0;
-            height: 6%;
-         }
-         .main-menu th, .main-menu td:hover {
-            color:#6666CC;
-            background: #000066;
-            border-color:#000066;
-            font-weight:bold;
-         }
-         .main-menu th {
-            width:22%;   
-         }
-         .main-menu td {
-            color: #000066;
-            border: 2px solid;
-            padding: 0px 0px 0px 0px;
-            background: #6666cc;
-            width: 13%;
-            border-left:0px;
-            text-align:center;
-         }
+			#Current, .main-menu li:hover {
+				font-weight: bold;
+				background-color: #000066;
+				color: #66c;
+			}
+			#Current {
+				width: 20.8%;
+			}
+			.main-menu li {
+				float: left;
+				color: #000066;
+				padding: 0px 0px 0px 0px;
+				background: #6666cc;
+				width: 11.8%;
+				border-left: 0px;
+				text-align: center;
+				height: 57%;
+				padding: 0.6%;
+			}
+			.main-menu {
+				position: fixed;
+				width: 100%;
+				margin: 0px 0px 0px 0px;
+				right: 0;
+				top: 0;
+				height: 5%;
+				list-style-type: none;
+			}
+			.main-menu li a {
+				color: inherit;
+				text-decoration: none;
+			}
       </style>
 </head>
-	<body>
+<body background="../sfondo.jpg">
 <!-- Menu -->
-      <table class="main-menu">
-         <tr class=tr-menu>
-            <th>Biologia</th>
-            <td>Hello</td>
-            <td>Hello</td>
-            <td>Hello</td>
-            <td>Hello</td>
-            <td>Hello</td>
-            <td>Hello</td>
-      </table>
+		<ul class="main-menu">
+			<li id="Current"><a href="../home.html">Biologia</a></li> 
+			<li><a href="../../../index.html">Home</a></li>
+      			<li><a href="../../Astronomia/home.html">Astronomia</a></li>
+      			<li><a href="../../Fisica/home.html">Fisica</a></li>
+			<li><a href="../../Matematica/home.html">Matematica</a></li>
+			<li><a href="../../Informatica/home.html">Informatica</a></li>
+			<li><a href="../../Team6/home.html">Team6</a></li>
+		</ul>
 <!-- End Menu Start body -->
-</body>
-
-        <body>
-<body background="../img/sfondo1.jpg">
 
 <table>
 <tr>
-<td><img width="400" height="300" src="../img/dna.jpg" alt="bisturi genetico"></td>
+<td><img width="400" height="300" src="../img/solari.jpg" alt="celle solari"></td>
 
 <td>
 <center>
@@ -64,7 +61,7 @@
 
        <table background="../img/bianco.jpg">
 <tr><td><h1>INDICE</h1></td>  </tr>
-<tr><td><a href="../Home.html"><big>HOME</big></a></td></tr>
+<tr><td><a href="../home.html"><big>HOME</big></a></td></tr>
 <tr><td><a href="pag1.html"><big>1.Immuno terapia contro i tumori</big></td></a></tr>
 <tr><td><a href="pag2.html"><big>2.CRISPR, il bisturi genetico</big></td></a></tr>
 <tr><td><a href="pag3.html"><big>3.Celle solari a perovskite</big></td></a></tr>
@@ -79,7 +76,7 @@
 </center>
 </td>
 
-<td><img width="400" height="300" src="../img/dna4.jpg" alt="bisturi genetico"></td>
+<td><img width="400" height="300" src="../img/solare1.jpg" alt="celle solari"></td>
 
 </td>
 </tr>
@@ -90,9 +87,6 @@
 
 <table>
 <tr>
-<td><img width="400" height="300" src="../img/dna2.jpg" alt="bisturi genetico"></td>
-
-
 <td>
 <center>
 <table background="../img/bianco.jpg">
@@ -167,8 +161,6 @@ avanti per essere raggiunte da quelle in perovskite, che così potrebbero perdere
 avrebbero e dunque gli incentivi ad investire in questa nuova tecnologia.
 </p>
 </td>
-
-<td><img width="400" height="300" src="../img/dna3.jpg" alt="bisturi genetico"></td>
 
 </tr>
 </table>

@@ -34,6 +34,16 @@
 				color: inherit;
 				text-decoration: none;
 			}
+			#sidebar {
+				position:fixed;
+				top:5%;
+				left:0;
+				width:32%;
+				height:90%;
+				border:0 0 0 0;
+				background-color:#EDF;
+				padding: 1.5%
+			}
 		</style>
 	</head>
 	<body bgcolor="black" background="../../img/AstronomiaImg/sfondoastronomia.jpg">
