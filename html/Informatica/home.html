@@ -1,41 +1,41 @@
-<!DOCTYPE html>
 <html>
  <head>
   <title>Informatica</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   
   <style>
-         .main-menu {
-            background-color:#009999;
-            position:fixed;
-            padding:0px;
-            width: 100%;
-            margin: 0px 0px 0px 0px;   
-            border-spacing: 0px;
-            right:0;
-            left:0;
-            top:0;
-            height: 6%;
-         }
-         .main-menu th, .main-menu td:hover {
-            color:#6666CC;
-            background: #000066;
-            border-color:#000066;
-            font-weight:bold;
-         }
-         .main-menu th {
-            width:22%;   
-         }
-         .main-menu td {
-            color: #000066;
-            border: 2px solid;
-            padding: 0px 0px 0px 0px;
-            background: #6666cc;
-            width: 13%;
-            border-left:0px;
-            text-align:center;
-         }
-
+			#Current, .main-menu li:hover {
+				font-weight: bold;
+				background-color: #000066;
+				color: #66c;
+			}
+			#Current {
+				width: 20.8%;
+			}
+			.main-menu li {
+				float: left;
+				color: #000066;
+				padding: 0px 0px 0px 0px;
+				background: #6666cc;
+				width: 11.8%;
+				border-left: 0px;
+				text-align: center;
+				height: 57%;
+				padding: 0.6%;
+			}
+			.main-menu {
+				position: fixed;
+				width: 100%;
+				margin: 0px 0px 0px 0px;
+				right: 0;
+				top: 0;
+				height: 5%;
+				list-style-type: none;
+			}
+			.main-menu li a {
+				color: inherit;
+				text-decoration: none;
+			}
    /*--------------------------------- SIDE MENU --------------------------------*/
 
    .side-menu {
@@ -117,17 +117,15 @@
   <table class="frame">
    <tr height="34px">
     <td colspan="2">
-     <table class="main-menu">
-         <tr class="tr-menu">        
-           <th><a href="https://googledrive.com/host/0B-zsahO1HFH2cVpJekFQOGljcDA/html/Informatica/index.html" style="color:6666CC;">Informatica</a></th> <!-- CURRENT PAGE NAME --->
-           <td><a href="https://googledrive.com/host/0B-zsahO1HFH2cVpJekFQOGljcDA">Home</a></td>
-           <td><a href="https://googledrive.com/host/0B-zsahO1HFH2cVpJekFQOGljcDA/html/Astronomia/index.html">Astronomia</a></td>
-           <td><a href="https://googledrive.com/host/0B-zsahO1HFH2cVpJekFQOGljcDA/html/Biologia/index.html">Biologia</a></td>
-           <td><a href="https://googledrive.com/host/0B-zsahO1HFH2cVpJekFQOGljcDA/html/FisicaHtml/index.html">Fisica</a></td>
-           <td><a href="https://googledrive.com/host/0B-zsahO1HFH2cVpJekFQOGljcDA/html/Matematica/Home.html">Matematica</a></td>
-           <td>Team6</td>
-         </tr>
-      </table>
+	<ul class="main-menu">
+		<li id="Current"><a href="home.html">Informatica</a></li> 
+		<li><a href="../../index.html">Home</a></li>
+		<li><a href="../Biologia/home.html">Biologia</a></li>
+ 		<li><a href="../Astronomia/home.html">Astronomia</a></li>
+      		<li><a href="../Fisica/home.html">Fisica</a></li>
+		<li><a href="../Matematica/home.html">Matematica</a></li>
+		<li><a href="../Team6/home.html">Team6</a></li>
+	</ul>
     </td>
    </tr>
    
@@ -140,7 +138,16 @@
       <tr><td><a href="ram.html">RAM</a></td></tr>
       <tr><td><a href="rom.html">ROM</a></td></tr>
       <tr><td><a href="input-output.html">I/O</a></td></tr>
-	    <tr><td><a href="bus di sistema.html">Bus di sistema</a></td></tr>
+	  <tr><td><a href="bus di sistema.html">Bus di sistema</a></td></tr>
+	  <tr><td><br></tr></td>
+	  <tr><td><b>Software</b></tr></td>
+	  <tr><td><a href="SO.html">Sistema operativo</a></td></tr>
+	  <tr><td><a href="kernel.html">Kernel</a></td></tr>
+	  <tr><td><a href="filesystem.html">File system</a></td></tr>
+	  <tr><td><a href="scheduler.html">Scheduler</a></td></tr>
+	  <tr><td><a href="GDMV.html">Gestore della memoria virtuale</a></td></tr>
+	  <tr><td><a href="GUI.html">Interfaccia utente</a></td></tr>
+	  <tr><td><a href="SDS.html">Spooler di stampa</a></td></tr>
      </table>
     </td>
     <td valign="top" id="cnt" style="background:#009999">

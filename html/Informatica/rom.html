@@ -1,0 +1,167 @@
+<html>
+ <head>
+  <title>Informatica</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  
+  <style>
+			#Current, .main-menu li:hover {
+				font-weight: bold;
+				background-color: #000066;
+				color: #66c;
+			}
+			#Current {
+				width: 20.8%;
+			}
+			.main-menu li {
+				float: left;
+				color: #000066;
+				padding: 0px 0px 0px 0px;
+				background: #6666cc;
+				width: 11.8%;
+				border-left: 0px;
+				text-align: center;
+				height: 57%;
+				padding: 0.6%;
+			}
+			.main-menu {
+				position: fixed;
+				width: 100%;
+				margin: 0px 0px 0px 0px;
+				right: 0;
+				top: 0;
+				height: 5%;
+				list-style-type: none;
+			}
+			.main-menu li a {
+				color: inherit;
+				text-decoration: none;
+			}
+   /*--------------------------------- SIDE MENU --------------------------------*/
+
+   .side-menu {
+      background-color: #000066;
+      padding:0px;
+      right:0;
+      left:0;
+      top:0;
+      border-collapse:collapse;
+   }
+
+   /*HERE YOU CAN MODIFY TEXT ALIGNMENT AND PADDING TO
+   CHOOSE THE POSITIONIG METHOD OF LINKS IN THE SIDE MENU*/
+   .side-menu td {
+      color:black;
+      padding: 0px 0px 0px 0px;
+      background: #6666cc;
+      text-align: center;
+      border:0px;  
+   }
+
+   .side-menu td:hover {
+      background: #46468B;
+   }
+
+   .side-menu td:active{
+      background: #FF2111;
+   }
+
+   .side-menu a {
+      display:block;
+      width:100%;
+      height:100%;
+      text-decoration:none;
+      color:black;
+   }
+
+   #sm {
+      color:#000066;
+      border-right:2px solid;
+      border-left:2px solid;
+      border-bottom:2px solid;
+      background-color:#6666cc;
+   }
+
+   /*USER MODIFICABLE*/
+   #cnt {
+      padding: 0px 0px 0px 0px;
+   }
+   /*USER MODIFICABLE, IN THIS BLOCK YOU CAN PUT ALL TEXT PROPERTIES FOR <p> TAG */
+   #cnt p {
+      /*
+      margin:0;
+      font-family:"Comic Sans MS";
+      font-size:1.4em;*/
+   }
+
+   /*--------------------------------- FRAME ------------------------------------*/
+
+   .frame {
+      position:absolute;
+      width:100%;
+      height:100%;
+      border:0px;
+      border-collapse:collapse;
+      left:0px;
+      top:0px;
+      padding: 0px;
+   }
+
+   .frame td {
+      padding:0px;
+      margin:0px:
+      border-spacing:0px;
+   }
+  </style>
+ </head>
+ <body bgcolor="#009999">
+  <table class="frame">
+   <tr height="34px">
+    <td colspan="2">
+	<ul class="main-menu">
+		<li id="Current"><a href="home.html">Informatica</a></li> 
+		<li><a href="../../index.html">Home</a></li>
+		<li><a href="../Biologia/home.html">Biologia</a></li>
+ 		<li><a href="../Astronomia/home.html">Astronomia</a></li>
+      		<li><a href="../Fisica/home.html">Fisica</a></li>
+		<li><a href="../Matematica/home.html">Matematica</a></li>
+		<li><a href="../Team6/home.html">Team6</a></li>
+	</ul>
+    </td>
+   </tr>
+   
+   <tr>
+    <td width="22%" valign="top" id="sm">
+     <!--  SIDE MENU LINKS IN THIS TABLE example: <tr><td><a href="...">TESTO</a></td></tr>  --->
+     <table class="side-menu" width="100%">
+	  <tr><td><b>Hardware</b></tr></td>
+      <tr><td><a href="cpu.html">CPU</a></td></tr>
+      <tr><td><a href="ram.html">RAM</a></td></tr>
+      <tr><td><a href="rom.html">ROM</a></td></tr>
+      <tr><td><a href="input-output.html">I/O</a></td></tr>
+	  <tr><td><a href="bus di sistema.html">Bus di sistema</a></td></tr>
+	  <tr><td><br></tr></td>
+	  <tr><td><b>Software</b></tr></td>
+	  <tr><td><a href="SO.html">Sistema operativo</a></td></tr>
+	  <tr><td><a href="kernel.html">Kernel</a></td></tr>
+	  <tr><td><a href="filesystem.html">File system</a></td></tr>
+	  <tr><td><a href="scheduler.html">Scheduler</a></td></tr>
+	  <tr><td><a href="GDMV.html">Gestore della memoria virtuale</a></td></tr>
+	  <tr><td><a href="GUI.html">Interfaccia utente</a></td></tr>
+	  <tr><td><a href="SDS.html">Spooler di stampa</a></td></tr>
+     </table>
+    </td>
+    <td valign="top" id="cnt">
+     <center><h2 style="padding-top:10px;">ROM</h2></center>
+     <p style="text-align:justify; padding: 10px 10px 0px 10px;">In elettronica ed informatica, la Read Only Memory, ovvero memoria a sola lettura, termine spesso abbreviato con l'acronimo ROM, è una tipologia di memoria informatica non volatile in cui i dati sono memorizzati tramite collegamenti elettronici fisici e stabili. Il suo contenuto non è modificabile durante il normale funzionamento, ma può esserlo, con diverse tecniche, in fase di costruzione, di progettazione o di prototipazione.</p>
+     <p style="text-align:justify; padding: 10px 10px 0px 10px;"><b>Caratteristiche</b></p>
+	 <p style="text-align:justify; padding: 10px 10px 0px 10px;">A differenza degli altri elementi di memoria, le memorie a sola lettura non programmabili appartengono alla categoria dei circuiti combinatori, dal momento che in funzione degli ingressi forniscono diverse relazioni combinatorie. Si tratta comunque di circuiti di memoria, dal momento che memorizzano una specifica relazione tra gli ingressi e le uscite: per n bit in ingresso una ROM restituisce 2n combinazioni di m bit in uscita.
+                                                                 Gli elementi fisici di memoria utilizzati dalle ROM sono diodi o transistor, e la loro scelta dipende dalle caratteristiche di utilizzo del dispositivo: per applicazioni che richiedono bassi tempi di lettura si usano transistor a giunzione bipolare, mentre per memorie ad alta capacità si sfrutta la tecnologia a transistor ad effetto di campo.</p>
+	 <p style="text-align:justify; padding: 10px 10px 0px 10px;"><b>Architettura</b></p>
+	 <p style="text-align:justify; padding: 10px 10px 0px 10px;">L'architettura delle memorie ROM è una matrice in cui ad ogni intersezione di riga e colonna vi è una cella di memoria, e può essere schematizzata come un decodificatore di indirizzo e un codificatore, realizzato a matrice di diodi o transistor, che possono essere sia a giunzione bipolare che ad effetto di campo. Ad ogni cella della matrice corrisponde una locazione di memoria in cui viene scritto il bit in fase di costruzione.
+                                                                 La lettura avviene tramite l'invio delle linee di indirizzo al decodificatore: esso ha il ruolo di attivare una riga della matrice del codificatore, la quale restituisce l'informazione contenuta nelle memorie allocate nelle intersezioni della riga selezionata e le colonne.</p>
+
+	</td>
+   </tr>
+  <table>
+ </body>
+</html>

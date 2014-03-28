@@ -1,0 +1,163 @@
+<html>
+ <head>
+  <title>Informatica</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  
+  <style>
+			#Current, .main-menu li:hover {
+				font-weight: bold;
+				background-color: #000066;
+				color: #66c;
+			}
+			#Current {
+				width: 20.8%;
+			}
+			.main-menu li {
+				float: left;
+				color: #000066;
+				padding: 0px 0px 0px 0px;
+				background: #6666cc;
+				width: 11.8%;
+				border-left: 0px;
+				text-align: center;
+				height: 57%;
+				padding: 0.6%;
+			}
+			.main-menu {
+				position: fixed;
+				width: 100%;
+				margin: 0px 0px 0px 0px;
+				right: 0;
+				top: 0;
+				height: 5%;
+				list-style-type: none;
+			}
+			.main-menu li a {
+				color: inherit;
+				text-decoration: none;
+			}
+
+   /*--------------------------------- SIDE MENU --------------------------------*/
+
+   .side-menu {
+      background-color: #000066;
+      padding:0px;
+      right:0;
+      left:0;
+      top:0;
+      border-collapse:collapse;
+   }
+
+   /*HERE YOU CAN MODIFY TEXT ALIGNMENT AND PADDING TO
+   CHOOSE THE POSITIONIG METHOD OF LINKS IN THE SIDE MENU*/
+   .side-menu td {
+      color:black;
+      padding: 0px 0px 0px 0px;
+      background: #6666cc;
+      text-align: center;
+      border:0px;  
+   }
+
+   .side-menu td:hover {
+      background: #46468B;
+   }
+
+   .side-menu td:active{
+      background: #FF2111;
+   }
+
+   .side-menu a {
+      display:block;
+      width:100%;
+      height:100%;
+      text-decoration:none;
+      color:black;
+   }
+
+   #sm {
+      color:#000066;
+      border-right:2px solid;
+      border-left:2px solid;
+      border-bottom:2px solid;
+      background-color:#6666cc;
+   }
+
+   /*USER MODIFICABLE*/
+   #cnt {
+      padding: 0px 0px 0px 0px;
+   }
+   /*USER MODIFICABLE, IN THIS BLOCK YOU CAN PUT ALL TEXT PROPERTIES FOR <p> TAG */
+   #cnt p {
+      /*
+      margin:0;
+      font-family:"Comic Sans MS";
+      font-size:1.4em;*/
+   }
+
+   /*--------------------------------- FRAME ------------------------------------*/
+
+   .frame {
+      position:absolute;
+      width:100%;
+      height:100%;
+      border:0px;
+      border-collapse:collapse;
+      left:0px;
+      top:0px;
+      padding: 0px;
+   }
+
+   .frame td {
+      padding:0px;
+      margin:0px:
+      border-spacing:0px;
+   }
+  </style>
+ </head>
+ <body>
+  <table class="frame">
+   <tr height="34px">
+    <td colspan="2">
+	<ul class="main-menu">
+		<li id="Current"><a href="home.html">Informatica</a></li> 
+		<li><a href="../../index.html">Home</a></li>
+		<li><a href="../Biologia/home.html">Biologia</a></li>
+ 		<li><a href="../Astronomia/home.html">Astronomia</a></li>
+      		<li><a href="../Fisica/home.html">Fisica</a></li>
+		<li><a href="../Matematica/home.html">Matematica</a></
+		<li><a href="../Team6/home.html">Team6</a></li>
+	</ul>
+    </td>
+   </tr>
+   
+   <tr>
+    <td width="22%" valign="top" id="sm">
+     <!--  SIDE MENU LINKS IN THIS TABLE example: <tr><td><a href="...">TESTO</a></td></tr>  --->
+     <table class="side-menu" width="100%">
+	  <tr><td><b>Hardware</b></tr></td>
+      <tr><td><a href="cpu.html">CPU</a></td></tr>
+      <tr><td><a href="ram.html">RAM</a></td></tr>
+      <tr><td><a href="rom.html">ROM</a></td></tr>
+      <tr><td><a href="input-output.html">I/O</a></td></tr>
+	  <tr><td><a href="bus di sistema.html">Bus di sistema</a></td></tr>
+	  <tr><td><br></tr></td>
+	  <tr><td><b>Software</b></tr></td>
+	  <tr><td><a href="SO.html">Sistema operativo</a></td></tr>
+	  <tr><td><a href="kernel.html">Kernel</a></td></tr>
+	  <tr><td><a href="filesystem.html">File system</a></td></tr>
+	  <tr><td><a href="scheduler.html">Scheduler</a></td></tr>
+	  <tr><td><a href="GDMV.html">Gestore della memoria virtuale</a></td></tr>
+	  <tr><td><a href="GUI.html">Interfaccia utente</a></td></tr>
+	  <tr><td><a href="SDS.html">Spooler di stampa</a></td></tr>
+     </table>
+    </td>
+    <td valign="top" id="cnt" style="background:#009999">
+     <center><h2 style="padding-top:10px;">Spooler di stampa</h2></center>
+	 <p style="text-align:justify; padding: 10px 10px 0px 10px;">Lo spooler di stampa (o print spooler), in informatica indica un sistema con la funzione di memorizzare (secondo una logica FIFO) le stampe degli utenti ed inviarle ad una stampante, anche condivisa in rete, appena questa è disponibile.</p>
+	 <p style="text-align:justify; padding: 10px 10px 0px 10px;"><b>Descrizione</b></p>
+	 <p style="text-align:justify; padding: 10px 10px 0px 10px;">Molte stampanti dotate di connessione di rete implementano direttamente la funzionalità dello spooler, permettendo ai client di inviare stampe direttamente alla stampante, che le accoderà nella propria memoria. Il processo di stampa via rete può comportare tempi particolarmente lunghi, per dare modo alle unità di uscita (stampanti, plotter, RIP, CTF, CTP eccetera) di produrre il risultato finale (su carta, rotolo, pellicola, lastra).<br><br>Per evitare che le stazioni che impartiscono la stampa restino impegnate durante tutto il tempo relativo alla stampa, si impiegano varie soluzioni hardware e software: lo spooler di stampa è una di queste<br><br>Si utilizza un server dedicato a questo compito, con caratteristiche elevate dal punto di vista della velocità in rete e della scrittura su disco: nel momento in cui viene impartita la stampa, la stazione che invia il lavoro crede di stampare sull'unità di uscita, ma in realtà scrive molto velocemente i dati su un'unità a disco connessa con il server. I dati di stampa sono così immagazzinati nello spooler, che provvederà a rilasciarli progressivamente nel corso del processo di stampa.<br><br>Anche nei moderni sistemi operativi è integrato un programma che si comporta da spooler di stampa. Il processo riceve i file da stampare dai programmi utilizzati dall'utente e li accoda mandandoli in stampa uno alla volta verso la stampante. Questo permette agli sviluppatori degli applicativi di non doversi preoccupare di eventuali conflitti sulla stampante per via di altri processi dato che lo spooler accetterà qualsiasi documento e farà sembrare la stampante sempre libera.</p>
+    </td>
+   </tr>
+  <table>
+ </body>
+</html>

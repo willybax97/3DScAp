@@ -1,0 +1,19 @@
+<head>
+<p align="center">
+<font face="tahoma" size="6" color="800000">
+<b>Un problema difficile per la Camera dei Comuni!</b>
+</p>
+</head>
+<body bgcolor="8B7E66"><font face="tahoma" size="4" color="800000">
+<br><p align="left"><font face="tahoma" size="5" color="800000"><i>Quesito:</i></p>
+<p align="center"><font face="tahoma" size="4" color="800000"><br>« ... Ciò è accaduto a Londra, alla Camera dei Comuni....
+<br>I fatti si svolsero così. Il signor Cove, deputato di Aler-Avons, aveva interpellato il ministro della pubblica istruzione, protestando contro i programmi scolastici sproporzionati alla mentalità dei giovani studenti.  E, per provare la sua affermazione, dichiarò che il 95% dei deputati presenti non sarebbe stato capace di risolvere un problema dato ai ragazzi di 11 anni all'esame di ammissione alle scuole secondarie. La Camera protestò indignata ed allora il signor Cove propose il problema che era stato dato agli alunni. Il problema è il seguente:
+<br>« Un coniglio, stando a 40 metri di distanza dalla sua tana, scorge, 6 metri dietro di sé, un cane che vuole raggiungerlo. Il coniglio fa dei salti di metri 1,65 ed il cane fa dei salti di metri 2,975. Ma, come il cane fa due salti, il coniglio, a parità di tempo, ne fa tre. A che di stanza dalla tana il coniglio fu raggiunto dal cane? »
+<br>Il 97% dei deputati non seppe risolvere il problema. Perciò il ministro dovette prendere formale impegno di modificare i programmi scolastici ».
+<br>Volete provare se siete più bravi di quei deputati?</p>
+<p align="left"><font face="tahoma" size="5" color="800000"><i>Soluzione:</i></p>
+<p align="center"><font face="tahoma" size="4" color="800000">Il problema si può risolvere in modo semplicissimo, con la sola aritmetica, mediante il seguente ragionamento.
+<br>Ogni due salti il cane percorre 5,95 metri e nello stesso tempo il coniglio, che fa tre salti, percorre 4,95 metri; dunque in ciascuno di quegli intervalli di tempo (in cui il cane fa due salti ed il coniglio tre) il cane guadagna 1 metro sul coniglio. E poiché la distanza che divide il cane dal coniglio è di 6 metri, è evidente che il cane raggiungerà il coniglio quando saranno passati 6 di quegli intervalli di tempo, cioè quando il coniglio avrà percorso 29,70 metri (6 x 4,95) e quindi alla distanza di 10,30 metri (40 – 29,70) dalla tana.
+</p>
+<p align="right" valign="bottom"><a href="../Home.html"><font face="tahoma" size="4" color="800000">Torna alla pagina iniziale</a></p>
+</body>

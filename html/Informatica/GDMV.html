@@ -1,0 +1,167 @@
+<html>
+ <head>
+  <title>Informatica</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  
+  <style>
+			#Current, .main-menu li:hover {
+				font-weight: bold;
+				background-color: #000066;
+				color: #66c;
+			}
+			#Current {
+				width: 20.8%;
+			}
+			.main-menu li {
+				float: left;
+				color: #000066;
+				padding: 0px 0px 0px 0px;
+				background: #6666cc;
+				width: 11.8%;
+				border-left: 0px;
+				text-align: center;
+				height: 57%;
+				padding: 0.6%;
+			}
+			.main-menu {
+				position: fixed;
+				width: 100%;
+				margin: 0px 0px 0px 0px;
+				right: 0;
+				top: 0;
+				height: 5%;
+				list-style-type: none;
+			}
+			.main-menu li a {
+				color: inherit;
+				text-decoration: none;
+			}
+
+   /*--------------------------------- SIDE MENU --------------------------------*/
+
+   .side-menu {
+      background-color: #000066;
+      padding:0px;
+      right:0;
+      left:0;
+      top:0;
+      border-collapse:collapse;
+   }
+
+   /*HERE YOU CAN MODIFY TEXT ALIGNMENT AND PADDING TO
+   CHOOSE THE POSITIONIG METHOD OF LINKS IN THE SIDE MENU*/
+   .side-menu td {
+      color:black;
+      padding: 0px 0px 0px 0px;
+      background: #6666cc;
+      text-align: center;
+      border:0px;  
+   }
+
+   .side-menu td:hover {
+      background: #46468B;
+   }
+
+   .side-menu td:active{
+      background: #FF2111;
+   }
+
+   .side-menu a {
+      display:block;
+      width:100%;
+      height:100%;
+      text-decoration:none;
+      color:black;
+   }
+
+   #sm {
+      color:#000066;
+      border-right:2px solid;
+      border-left:2px solid;
+      border-bottom:2px solid;
+      background-color:#6666cc;
+   }
+
+   /*USER MODIFICABLE*/
+   #cnt {
+      padding: 0px 0px 0px 0px;
+   }
+   /*USER MODIFICABLE, IN THIS BLOCK YOU CAN PUT ALL TEXT PROPERTIES FOR <p> TAG */
+   #cnt p {
+      /*
+      margin:0;
+      font-family:"Comic Sans MS";
+      font-size:1.4em;*/
+   }
+
+   /*--------------------------------- FRAME ------------------------------------*/
+
+   .frame {
+      position:absolute;
+      width:100%;
+      height:100%;
+      border:0px;
+      border-collapse:collapse;
+      left:0px;
+      top:0px;
+      padding: 0px;
+   }
+
+   .frame td {
+      padding:0px;
+      margin:0px:
+      border-spacing:0px;
+   }
+  </style>
+ </head>
+ <body>
+  <table class="frame">
+   <tr height="34px">
+    <td colspan="2">
+	<ul class="main-menu">
+		<li id="Current"><a href="home.html">Informatica</a></li> 
+		<li><a href="../../index.html">Home</a></li>
+		<li><a href="../Biologia/home.html">Biologia</a></li>
+ 		<li><a href="../Astronomia/home.html">Astronomia</a></li>
+      		<li><a href="../Fisica/home.html">Fisica</a></li>
+		<li><a href="../Matematica/home.html">Matematica</a></li>
+		<li><a href="../Team6/home.html">Team6</a></li>
+	</ul>
+    </td>
+   </tr>
+   
+   <tr>
+    <td width="22%" valign="top" id="sm">
+     <!--  SIDE MENU LINKS IN THIS TABLE example: <tr><td><a href="...">TESTO</a></td></tr>  --->
+     <table class="side-menu" width="100%">
+	  <tr><td><b>Hardware</b></tr></td>
+      <tr><td><a href="cpu.html">CPU</a></td></tr>
+      <tr><td><a href="ram.html">RAM</a></td></tr>
+      <tr><td><a href="rom.html">ROM</a></td></tr>
+      <tr><td><a href="input-output.html">I/O</a></td></tr>
+	  <tr><td><a href="bus di sistema.html">Bus di sistema</a></td></tr>
+	  <tr><td><br></tr></td>
+	  <tr><td><b>Software</b></tr></td>
+	  <tr><td><a href="SO.html">Sistema operativo</a></td></tr>
+	  <tr><td><a href="kernel.html">Kernel</a></td></tr>
+	  <tr><td><a href="filesystem.html">File system</a></td></tr>
+	  <tr><td><a href="scheduler.html">Scheduler</a></td></tr>
+	  <tr><td><a href="GDMV.html">Gestore della memoria virtuale</a></td></tr>
+	  <tr><td><a href="GUI.html">Interfaccia utente</a></td></tr>
+	  <tr><td><a href="SDS.html">Spooler di stampa</a></td></tr>
+     </table>
+    </td>
+    <td valign="top" id="cnt" style="background:#009999">
+     <center><h2 style="padding-top:10px;">Gestore della memoria virtuale</h2></center>
+	 <p style="text-align:justify; padding: 10px 10px 0px 10px;">Il gestore della memoria (memory manager in inglese) è un componente del sistema operativo dedito alla gestione della memoria disponibile sul computer. Il gestore si preoccupa di allocare, deallocare e gestire la memoria che viene assegnata agli applicativi e allo stesso sistema operativo.<br><br>Tutti i moderni sistemi operativi sono dotati di memoria virtuale. Il gestore della memoria si preoccupa di decidere quali blocchi di memoria sono poco utilizzati dal sistema e quindi possono essere spostati sull'unità a disco senza deprimere eccessivamente le prestazioni del sistema.<br><br>Altri compiti molto importanti di questo modulo sono:</p>
+     <ul style="text-align:justify; padding: 5px 10px 5px 30px;">
+	    <li><b>Garantire la protezione</b><br>poiché in memoria possono risiedere contemporaneamente processi utente e moduli sistema, è necessario evitare che, per qualsiasi malfunzionamento, dati o istruzioni di un processo possano sovrapporsi a quelle del supervisore o di un altro processo utente, creando situazioni anomale e spesso disastrose</li>
+		<li><b>Garantire trasparenza</b><br>l'operazione di allocazione deve essere invisibile al processo, il cui avanzamento deve essere indipendente dalla posizione dello spazio degli indirizzi assegnati dalla memoria. Ciò consente di rimandare in stato di disponibilità un processo e successivamente ricaricarlo in memoria in un'altra area, senza che il fatto sia di alcun impedimento al suo avanzamento</li>
+		<li><b>Garantire allocazione logica</b><br>in generale l'immagine di un processo è logicamente composta da sezioni (codice e dati) che, anche se fisicamente poste in aree disgiunte di memoria, devono essere viste dal processo come contigue</li>
+		<li><b>Consentire la condivisione del codice</b><br>in un sistema multiprogrammato, più utenti possono utilizzare contemporaneamente gli stessi programmi quindi occorre un sistema che permetta di condividere il codice (gli applicativi software) ma di tenere separati i dati.</li>
+	 </ul>
+	</td>
+   </tr>
+  <table>
+ </body>
+</html>
