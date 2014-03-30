@@ -4,7 +4,7 @@
 <b>Che giorno della settimana era il 30 aprile 1777?</b>
 </p>
 </head>
-<body bgcolor="8B7E66"><font face="tahoma" size="4" color="800000">
+<body bgcolor="8B7E66" background="images.gif"><font face="tahoma" size="4" color="800000">
 <br><p align="left"><font face="tahoma" size="5" color="800000"><i>Quesito:</i></p>
 <p align="center"><font face="tahoma" size="4" color="800000">Scoprire che giorno era il 30 Aprile 1777 giorno in cui nacque il famoso matematico Gauss</p>
 <p align="left"><font face="tahoma" size="5" color="800000"><i>Soluzione:</i></p>

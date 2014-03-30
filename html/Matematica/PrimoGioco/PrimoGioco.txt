@@ -4,7 +4,7 @@
 <b>Il Teorema dei Capelli</b>
 </p>
 </head>
-<body bgcolor="8B7E66"><font face="tahoma" size="4" color="800000">
+<body bgcolor="8B7E66" background="images.gif"><font face="tahoma" size="4" color="800000">
 <br><p align="left"><font face="tahoma" size="5" color="800000"><i>Quesito:</i></p>
 <p align="center"><font face="tahoma" size="4" color="800000">Dimostrare che a Roma vi sono almeno 22 persone che hanno lo stesso numero di capelli!</p>
 <p align="left"><font face="tahoma" size="5" color="800000"><i>Soluzione:</i></p>

@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
   <head>
-     <title>Biologia</title>
+     <title>Matematica</title>
 <!-- http://colorschemedesigner.com/#3ec25w0w0w0w0 -->
      <style>
         body {
@@ -55,11 +55,11 @@
 <!-- End Menu Start body -->
 <table width="1350" height="100" border="8" cellspacing="0" cellpadding="8" align="center" bgcolor="8B7E66">
 <tr>
-<td width="20%"><a href="PrimoGioco/PrimoGioco.html"><p align="center"><font face="tahoma" size="6" color="8000000"><i>Il Teorema dei Capelli</i></font></p></a></td>
-<td width="20%"><a href="SecondoGioco/SecondoGioco.html"><p align="center"><font face="tahoma" size="6" color="8000000"><i>Indovina la Data di Nascita di un Amico!</i></font></p></a></td>
-<td width="20%"><a href="TerzoGioco/TerzoGioco.html"><p align="center"><font face="tahoma" size="6" color="8000000"><i>Indovina il Numero Pensato!</i></font></p></a></td>
-<td width="20%"><a href="QuartoGioco/QuartoGioco.html"><p align="center"><font face="tahoma" size="6" color="8000000"><i>Un Problema Difficile per la Camera dei Comuni</i></font></p></a></td>
-<td width="20%"><a href="QuintoGioco/QuintoGioco.html"><p align="center"><font face="tahoma" size="6" color="8000000"><i>Tutti i Numeri sono Uguali!</i></font></p></a></td>
+<td width="20%"><a href="PrimoGioco/PrimoGioco.html"><p align="center"><font face="tahoma" size="5" color="8000000"><i>Il Teorema dei Capelli</i></font></p></a></td>
+<td width="20%"><a href="SecondoGioco/SecondoGioco.html"><p align="center"><font face="tahoma" size="5" color="8000000"><i>Indovina la Data di Nascita di un Amico!</i></font></p></a></td>
+<td width="20%"><a href="TerzoGioco/TerzoGioco.html"><p align="center"><font face="tahoma" size="5" color="8000000"><i>Indovina il Numero Pensato!</i></font></p></a></td>
+<td width="20%"><a href="QuartoGioco/QuartoGioco.html"><p align="center"><font face="tahoma" size="5" color="8000000"><i>Un Problema Difficile per la Camera dei Comuni</i></font></p></a></td>
+<td width="20%"><a href="QuintoGioco/QuintoGioco.html"><p align="center"><font face="tahoma" size="5" color="8000000"><i>Tutti i Numeri sono Uguali!</i></font></p></a></td>
 </tr>
 </table>
 <p align="center"><font face="tahoma" size="6" color="800000"><br><b>Spesso la Matematica è vista come un orribile insieme di formule matematiche, incognite e strani procedimenti sconosciuti ai più. Ma la Matematica non è solo questo, spesso può essere perfino divertente, come nei "giochi" matematici in cui la materia viene messa al servizio del lettore che può scoprire nuove cose e rimanere addirittura piacevolmente colpito.</b></p>
