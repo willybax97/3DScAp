@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+ <head>
+    <title>Fisica</title>
+<!-- http://colorschemedesigner.com/#3ec25w0w0w0w0 -->
+    <style>
+       body {
+          position:absolute;
+          top:6%;
+          background-color:#1A83DA;
+       }
+       .main-menu {
+          background-color:#009999;
+          position:fixed;
+          padding:0px;
+          width: 100%;
+          margin: 0px 0px 0px 0px;  
+          border-spacing: 0px;
+          right:0;
+          left:0;
+          top:0;
+          height: 6%;
+       }
+       .main-menu th, .main-menu td:hover {
+          color:#6666CC;
+          background: #000066;
+          border-color:#000066;
+          font-weight:bold;
+       }
+       .main-menu th {
+          width:22%;  
+       }
+       .main-menu td {
+          color: #000066;
+          border: 2px solid;
+          padding: 0px 0px 0px 0px;
+          background: #6666cc;
+          width: 13%;
+          border-left:0px;
+          text-align:center;
+       }
+        .page {
+            padding:0;
+            width:100%;
+            margin: 10px 0px 0px 0px;
+            border-spacing:0px;
+            right:0;
+            left:0;
+            height:100%;
+        }
+        .page td{
+            color: black;
+            border: none;
+        }
+        
+        .h1{
+            font-size: 35px;
+            text-align:left;
+            font-family: serif;
+                font-weight: bold;
+        }
+        
+        a:link {
+            color:#000999;
+            text-decoration: none;
+            font-size:16px;
+        }
+        a:visited{
+            color:#000066;
+            text-decoration:none;
+            font-size:16px;
+        }
+        a:hover{
+            color:#0000FF;
+            text-decoration:none;
+            font-size:16px;
+        }
+        a:active {
+            color:#0000FF;
+            text-decoration:none;
+            font-size:16px;
+        }
+        
+        p{
+            font-size:20px;
+            text-align:left;
+        }
+        
+        ul {
+            list-style:none;
+            padding:0px;
+            margin:0px;
+        }
+    </style>
+ </head>
+ <body>
+<!-- Menu -->
+    <table class="main-menu">
+       <tr class="tr-menu">
+<!-- Non lo modificare -->
+          <th>Fisica</th>
+          <td>Hello</td>
+          <td>Hello</td>
+          <td>Hello</td>
+          <td>Hello</td>
+          <td>Hello</td>
+          <td>Hello</td>
+    </table>
+<!-- End Menu Start body -->
+   <table class="page">
+        
+        <tr>
+            <td></td>
+            <td><h1>FONTI</h1></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <ul>
+                <li><a href="index.html">GUT</a></li>
+                <li><a href="#">Interazione gravitazionale</a></li>  
+                <li><a href="IN.html">Interazione nucleare forte</a></li>
+                <li><a href="IED.html">Interazione elettrodebole</a></li>
+                <li><a href="FONTI.html">Fonti</a></li>
+            </ul>
+        </td>
+        <td>
+        <h2>Interazione nucleare forte</h2>
+        <p>http://it.wikipedia.org/wiki/Interazione_forte</p>
+        <h2>Interazione elettrodebole, GUT</h2>
+        <p>Fisica 3, di Antonio Caforio e Aldo Ferilli, ediz. Le Monnier Scuola </p>
+        </td>
+        </tr> 
+    </table> 
+ </body>
