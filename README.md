@@ -16,7 +16,7 @@ Questo [video](http://youtu.be/9xlBfZwgT-o) dovrebbe essere d'aiuto per capire c
 ###Link utili
 
 +   Codice del [menu principale](https://gist.github.com/LRuffati/9723590)
-+   Link per la visualizzazione del [sito](lruffati.github.io/ProvaHtml)
++   Link per la visualizzazione del [sito](http://lruffati.github.io/3DScAp)
 
 ###Note
 
