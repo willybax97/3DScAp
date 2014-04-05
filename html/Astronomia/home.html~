@@ -42,10 +42,10 @@
 			}
       </style>
    </head>
-   <body background="https://googledrive.com/host/0B-zsahO1HFH2cVpJekFQOGljcDA/img/AstronomiaImg/sfondoastronomia.jpg">
+   <body background="../../img/Astronomia/sfondoastronomia.jpg">
 <!-- Menu -->
 		<ul class="main-menu">
-      			<li id="Current"><a href="html/Astronomia/home.html">Astronomia</a></a></li>
+      			<li id="Current"><a href="#">Astronomia</a></a></li>
       			<li><a href="../../index.html">Home</li>
 			<li><a href="../Biologia/home.html">Biologia</a></li>
       			<li><a href="../Fisica/home.html">Fisica</a></li>
@@ -84,39 +84,39 @@
         <br>
         <!--sole-->
         <a href="sole.html">
-            <img src="https://googledrive.com/host/0B-zsahO1HFH2cVpJekFQOGljcDA/img/AstronomiaImg/solenome.jpg" height="160">
+            <img src="../../img/Astronomia/solenome.jpg" height="160">
         </a>
         <!--mercurio-->
         <a href="mercurio.html">
-            <img src="https://googledrive.com/host/0B-zsahO1HFH2cVpJekFQOGljcDA/img/AstronomiaImg/mercurionome.jpg" height="160">
+            <img src="../../img/Astronomia/mercurionome.jpg" height="160">
         </a>
         <!--venere-->
         <a href="venere.html">
-            <img src="https://googledrive.com/host/0B-zsahO1HFH2cVpJekFQOGljcDA/img/AstronomiaImg/venerenome.jpg" height="160">
+            <img src="../../img/Astronomia/venerenome.jpg" height="160">
         </a>
         <!--terra-->
         <a href="terraluna.html">
-            <img src="https://googledrive.com/host/0B-zsahO1HFH2cVpJekFQOGljcDA/img/AstronomiaImg/terraelunanome.jpg" height="160">
+            <img src="../../img/Astronomia/terraelunanome.jpg" height="160">
         </a>
         <!--marte-->
         <a href="marte.html">
-            <img src="https://googledrive.com/host/0B-zsahO1HFH2cVpJekFQOGljcDA/img/AstronomiaImg/martenome.jpg" height="160">
+            <img src="../../img/Astronomia/martenome.jpg" height="160">
         </a>
         <!--giove-->
         <a href="giove.html">
-            <img src="https://googledrive.com/host/0B-zsahO1HFH2cVpJekFQOGljcDA/img/AstronomiaImg/giovenome.jpg" height="160">
+            <img src="../../img/Astronomia/giovenome.jpg" height="160">
         </a>
         <!--saturno-->
         <a href="saturno.html">
-            <img src="https://googledrive.com/host/0B-zsahO1HFH2cVpJekFQOGljcDA/img/AstronomiaImg/saturnonome.jpg" height="160">
+            <img src="../../img/Astronomia/saturnonome.jpg" height="160">
         </a>
         <!--urano-->
         <a href="urano.html">
-            <img src="https://googledrive.com/host/0B-zsahO1HFH2cVpJekFQOGljcDA/img/AstronomiaImg/uranonome.jpg" height="160">
+            <img src="../../img/Astronomia/uranonome.jpg" height="160">
         </a>
         <!--nettuno-->
         <a href="nettuno.html">
-            <img src="https://googledrive.com/host/0B-zsahO1HFH2cVpJekFQOGljcDA/img/AstronomiaImg/nettunonome.jpg" height="160">
+            <img src="../../img/Astronomia/nettunonome.jpg" height="160">
         </a>
     </p>
    </body>
