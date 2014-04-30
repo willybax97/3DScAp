@@ -17,6 +17,7 @@ Questo [video](http://youtu.be/9xlBfZwgT-o) dovrebbe essere d'aiuto per capire c
 
 +   Codice del [menu principale](https://gist.github.com/LRuffati/9723590)
 +   Link per la visualizzazione del [sito](http://lruffati.github.io/3DScAp)
++   Schema di colori della [home](http://colorschemedesigner.com/#3ec25w0w0w0w0)
 
 ###Note
 
