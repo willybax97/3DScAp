@@ -1,0 +1,77 @@
+body {
+	margin				:	0;
+}
+
+body>header {
+/*	position				: 	absolute;*/
+	top					:	0;
+	left					:	0;
+	right					:	0;
+	height				:  4em;
+	background-color	: 	#3da;
+}
+
+.main-menu {
+	position				: 	fixed;
+	top					:	1em;
+	left					:	3%;
+	width					:	94%;
+	list-style-type	:	none;
+	padding				:	0;
+	margin				:	0;
+}
+
+.main-menu li {
+	width					:	13%;
+	display				:	inline;
+	float					:	left;
+	background-color	:	#ad3;
+	height				:  1em;
+	padding				:	0.5em 0;
+	text-align			:	center;
+	font-weight			:	bold;
+}
+
+.main-menu li:hover a {
+	font-weight			:	bolder;
+}
+
+.main-menu li a {
+	position				:	relative;
+	width					:	100%;
+	text-decoration	:	none;
+	height				:	100%;
+	display				:	block;
+	color					:	inherit;
+	padding				:	0.5em 0;
+	top					: 	-0.5em;
+}
+
+.main-menu li:nth-child(1) {
+	width					:	22%;
+	background-color	:	#698C18;
+}
+
+.main-menu li:nth-child(2) {
+	background-color	:	#769D1B;
+}
+
+.main-menu li:nth-child(3) {
+	background-color	:	#83AE1E;
+}
+
+.main-menu li:nth-child(4) {
+	background-color	:	#90C021;
+}
+
+.main-menu li:nth-child(5) {
+	background-color	:	#9DD123;
+}
+
+.main-menu li:nth-child(6) {
+	background-color	:	#AADD33;
+}
+
+.main-menu li:nth-child(7) {
+	background-color	:	#AFDE3F;
+}
