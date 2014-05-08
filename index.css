@@ -1,0 +1,42 @@
+body {
+  position:relative;
+	margin				:	0;
+}
+
+body>header {
+	position				: 	relative;
+	left					:	0;
+	right					:	0;
+	height				:  4em;
+	background-color	: 	#3da;
+}
+
+body>header {
+  position				: 	relative;
+  left					:	0;
+  right					:	0;
+  height				:  4em;
+  background-color	: 	#3da;
+}
+body>aside > h1{
+  margin-top:  0;
+}
+
+body>header h1 {
+text-align: right;
+margin: 0;
+height: 50%;
+position: relative;
+right: 0.7em;
+font-size: 4em;
+}
+
+body>aside {
+  float: left;
+  width:32%;
+  background-color: #5bd549;
+  position: relative;
+  display: block;
+  height:100%;
+  padding: 1em 1.5%;
+}
