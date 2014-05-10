@@ -7,7 +7,7 @@ body {
 }
 
 body>header {
-	position				: 	absolute;
+	position:absolute;
 	left					:	0;
 	right					:	0;
 	top:-4em;
@@ -23,9 +23,7 @@ body>aside{
 	background:#ADF;
 	float:left;
 	width:32%;
-	height:100%;
-	padding: 1em 1.5%;
-
+	min-height:100%;
 }
 
 body>header h1 {
@@ -44,4 +42,9 @@ body>article {
     margin-top:1.5%;
     margin-left:1.5%;
     height:20%;
+}
+
+body>aside * {
+    padding:1%;
+    margin-top:2%;
 }
