@@ -22,8 +22,10 @@ body>aside{
 	position:relative;
 	background:#ADF;
 	float:left;
-	width:30%;
-	height:100%
+	width:32%;
+	height:100%;
+	padding: 1em 1.5%;
+
 }
 
 body>header h1 {
@@ -33,4 +35,13 @@ height: 50%;
 position: relative;
 right: 0.7em;
 font-size: 4em;
+}
+
+body>article {
+    width:30%;
+    background:#A3d;
+    float:left;
+    margin-top:1.5%;
+    margin-left:1.5%;
+    height:20%;
 }
