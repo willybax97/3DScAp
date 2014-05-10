@@ -1,25 +1,29 @@
 body {
-  position:relative;
+  position:absolute;
 	margin				:	0;
+    background:#AFD;
+    top:4em;
+    bottom:0em;
 }
 
 body>header {
-	position				: 	relative;
+	position				: 	absolute;
 	left					:	0;
 	right					:	0;
+	top:-4em;
 	height				:  4em;
 	background-color	: 	#3da;
 }
 
-body>header {
-  position				: 	relative;
-  left					:	0;
-  right					:	0;
-  height				:  4em;
-  background-color	: 	#3da;
+h1{
+  	margin-top:  0;
 }
-body>aside > h1{
-  margin-top:  0;
+body>aside{
+	position:relative;
+	background:#ADF;
+	float:left;
+	width:30%;
+	height:100%
 }
 
 body>header h1 {
@@ -29,14 +33,4 @@ height: 50%;
 position: relative;
 right: 0.7em;
 font-size: 4em;
-}
-
-body>aside {
-  float: left;
-  width:32%;
-  background-color: #5bd549;
-  position: relative;
-  display: block;
-  height:100%;
-  padding: 1em 1.5%;
 }
