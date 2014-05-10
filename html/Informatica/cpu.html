@@ -1,158 +1,51 @@
+<!DOCTYPE html>
 <html>
  <head>
   <title>Informatica</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <style>
-			#Current, .main-menu li:hover {
-				font-weight: bold;
-				background-color: #000066;
-				color: #66c;
-			}
-			#Current {
-				width: 20.8%;
-			}
-			.main-menu li {
-				float: left;
-				color: #000066;
-				padding: 0px 0px 0px 0px;
-				background: #6666cc;
-				width: 11.8%;
-				border-left: 0px;
-				text-align: center;
-				height: 57%;
-				padding: 0.6%;
-			}
-			.main-menu {
-				position: fixed;
-				width: 100%;
-				margin: 0px 0px 0px 0px;
-				right: 0;
-				top: 0;
-				height: 5%;
-				list-style-type: none;
-			}
-			.main-menu li a {
-				color: inherit;
-				text-decoration: none;
-			}
-   /*--------------------------------- SIDE MENU --------------------------------*/
-
-   .side-menu {
-      background-color: #000066;
-      padding:0px;
-      right:0;
-      left:0;
-      top:0;
-      border-collapse:collapse;
-   }
-
-   /*HERE YOU CAN MODIFY TEXT ALIGNMENT AND PADDING TO
-   CHOOSE THE POSITIONIG METHOD OF LINKS IN THE SIDE MENU*/
-   .side-menu td {
-      color:black;
-      padding: 0px 0px 0px 0px;
-      background: #6666cc;
-      text-align: center;
-      border:0px;  
-   }
-
-   .side-menu td:hover {
-      background: #46468B;
-   }
-
-   .side-menu td:active{
-      background: #FF2111;
-   }
-
-   .side-menu a {
-      display:block;
-      width:100%;
-      height:100%;
-      text-decoration:none;
-      color:black;
-   }
-
-   #sm {
-      color:#000066;
-      border-right:2px solid;
-      border-left:2px solid;
-      border-bottom:2px solid;
-      background-color:#6666cc;
-   }
-
-   /*USER MODIFICABLE*/
-   #cnt {
-      padding: 0px 0px 0px 0px;
-   }
-   /*USER MODIFICABLE, IN THIS BLOCK YOU CAN PUT ALL TEXT PROPERTIES FOR <p> TAG */
-   #cnt p {
-      /*
-      margin:0;
-      font-family:"Comic Sans MS";
-      font-size:1.4em;*/
-   }
-
-   /*--------------------------------- FRAME ------------------------------------*/
-
-   .frame {
-      position:absolute;
-      width:100%;
-      height:100%;
-      border:0px;
-      border-collapse:collapse;
-      left:0px;
-      top:0px;
-      padding: 0px;
-   }
-
-   .frame td {
-      padding:0px;
-      margin:0px:
-      border-spacing:0px;
-   }
-  </style>
+  <link rel="stylesheet" type="text/css" href="../../header.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
  </head>
- <body bgcolor="#009999">
-  <table class="frame">
-   <tr height="34px">
-    <td colspan="2">
-	<ul class="main-menu">
-		<li id="Current"><a href="home.html">Informatica</a></li> 
-		<li><a href="../../index.html">Home</a></li>
-		<li><a href="../Biologia/home.html">Biologia</a></li>
- 		<li><a href="../Astronomia/home.html">Astronomia</a></li>
-      		<li><a href="../Fisica/home.html">Fisica</a></li>
-		<li><a href="../Matematica/home.html">Matematica</a></li>
-		<li><a href="../Team6/home.html">Team6</a></li>
-	</ul>
-    </td>
-   </tr>
+ 
+ <body>
+  	<header>
+		<ul class="main-menu">
+			<li><a href="../Team6/home.html">Team6</a></li>
+			<li><a href="../../index.html">Home</a></li>
+			<li><a href="../Astronomia/home.html">Astronomia</a></li>
+			<li><a href="../Biologia/home.html">Biologia</a></li>
+			<li><a href="../Fisica/home.html">Fisica</a></li>
+			<li><a href="../Informatica/home.html">Informatica</a></li>
+			<li><a href="../Matematica/home.html">Matematica</a></li>
+		</ul>
+	</header>
    
-   <tr>
-    <td width="22%" valign="top" id="sm">
-     <!--  SIDE MENU LINKS IN THIS TABLE example: <tr><td><a href="...">TESTO</a></td></tr>  --->
-     <table class="side-menu" width="100%">
-	  <tr><td><b>Hardware</b></tr></td>
-      <tr><td><a href="cpu.html">CPU</a></td></tr>
-      <tr><td><a href="ram.html">RAM</a></td></tr>
-      <tr><td><a href="rom.html">ROM</a></td></tr>
-      <tr><td><a href="input-output.html">I/O</a></td></tr>
-	  <tr><td><a href="bus di sistema.html">Bus di sistema</a></td></tr>
-      <tr><td><br></tr></td>
-	  <tr><td><b>Software</b></tr></td>
-	  <tr><td><a href="SO.html">Sistema operativo</a></td></tr>
-	  <tr><td><a href="kernel.html">Kernel</a></td></tr>
-	  <tr><td><a href="filesystem.html">File system</a></td></tr>
-	  <tr><td><a href="scheduler.html">Scheduler</a></td></tr>
-	  <tr><td><a href="GDMV.html">Gestore della memoria virtuale</a></td></tr>
-	  <tr><td><a href="GUI.html">Interfaccia utente</a></td></tr>
-	  <tr><td><a href="SDS.html">Spooler di stampa</a></td></tr>
-     </table>
-    </td>
-    <td valign="top" id="cnt">
-       <center><h2 style="padding-top:10px;">CPU</h2></center>
+   <div id="smc"></div>
+   
+   <nav id="sidebar">
+	<ul id="sbar">
+      <li class="lh">Hardware</li>
+      <li><a href="cpu.html">CPU</a></li>
+      <li><a href="ram.html">RAM</a></li>
+      <li><a href="rom.html">ROM</a></li>
+	  <li><a href="input-output.html">I/O</a></li>
+	  <li><a href="bus di sistema.html">Bus di sistema</a></li>
+	  <li class="lh"><br></li>
+	  <li class="lh">Software</li>
+	  <li><a href="SO.html">Sistema operativo</a></li>
+	  <li><a href="kernel.html">Kernel</a></li>
+	  <li><a href="filesystem.html">File system</a></li>
+	  <li><a href="scheduler.html">Scheduler</a></li>
+	  <li><a href="GDMV.html">Gestore della memoria virtuale</a></li>
+	  <li><a href="GUI.html">Interfaccia utente</a></li>
+	  <li><a href="SDS.html">Spooler di stampa</a></li>
+    </ul>
+   </nav>
+   
+   <div id="content">
+     <center><h2 style="padding-top:10px;">CPU</h2></center>
        <p style="text-align:justify; padding: 10px 10px 0px 10px;">
-        <img src="../../img/Informatica/IntelCpu.jpg" height="147" width="220" align="right" style="margin: 0px 0px 0px 10px">L'unità di elaborazione centrale (abbreviazione comunemente
+        <img src="../../img/Informatica/IntelCpu.jpg" height="147" width="220" align="right" style="margin: 0px 0px 0px 10px" title="CPU" alt="Immagine di una cpu della intel">L'unità di elaborazione centrale (abbreviazione comunemente
         utilizzata: CPU) o processore centrale è una tipologia di 
         processore digitale general purpose la quale si contraddistingue
         per sovrintendere tutte le funzionalità del computer digitale basato
@@ -202,7 +95,7 @@
          <li>Registri nominativi: ogni registro è identificato singolarmente e le istruzioni che usano registri specificano di volta in volta quale registro devono usare. Spesso alcuni registri sono dedicati a scopi particolari (registri indice, accumulatori, registri di segmento ecc.) imponendo la non ortogonalità del set di istruzioni (vedi oltre). La gran maggioranza delle CPU generiche degli anni '70 e '80 è di questo tipo.</li>
          <li>File di registri: I registri sono organizzati come una memoria interna della CPU e indicizzati: la CPU "alloca" un certo numero di registri per ogni processo e/o subroutine in esecuzione, eliminando la necessità di accedere alla RAM per salvare gli stack di chiamata delle funzioni e i dati di task switching nei sistemi multitask.</li>
         </ul>
-        <img src="../../img/Informatica/PinCPU.JPG" height="274" width="280" style="margin: 0px 0px 0px 10px">
+        <img src="../../img/Informatica/PinCPU.JPG" height="274" width="280" style="margin: 0px 0px 0px 10px" title="CPU vista dal lato dei pin" alt="fotografia di una cpu vista dal lato dei pin">
         <p style="text-align:justify; padding: 0px 10px 0px 10px;">Una moderna CPU (vista del lato dove sono posizionati i pin)<p>
         <p style="text-align:justify; padding: 10px 10px 0px 10px;">Una CPU è un circuito digitale sincrono: vale a dire che il suo stato cambia ogni volta che riceve un impulso da un segnale di sincronismo detto clock, che ne determina di conseguenza la velocità operativa, detta velocità di clock: quindi il tempo di esecuzione di una istruzione si misura in cicli di clock, cioè in quanti impulsi di clock sono necessari perché la CPU la completi. In effetti, una parte importante e delicata di ogni CPU è il sistema di distribuzione che porta il segnale di clock alle varie unità e sottounità di cui è composta, per fare in modo che siano sempre in sincronia: tale sistema si dirama in una struttura ad albero con divisori e ripetitori che giunge ovunque nella CPU.</p>
         <p style="text-align:justify; padding: 10px 10px 0px 10px;">Nei processori più moderni (Pentium, Athlon, PowerPC) questa "catena di ingranaggi" elettronica arriva ad impiegare circa il 30% di tutti i transistor disponibili. La velocità di questa distribuzione determina in maniera diretta la massima frequenza operativa di una CPU: nessuna CPU può essere più veloce del suo critical path, cioè del tempo che impiega il clock per percorrere il tratto più lungo in tutto l'albero di distribuzione del clock. Per esempio, se il segnale di clock di una data CPU impiega un nanosecondo per attraversare tutto il chip ed arrivare fino all'ultima sottounità, questa CPU potrà operare a non più di 1 GHz, perché altrimenti le sue componenti interne perderebbero la sincronizzazione, con risultati imprevedibili (per avere un margine di sicurezza, il limite pratico sarà anzi ben minore di 1 GHz).</p>
@@ -213,8 +106,7 @@
          <li>Esecuzione (Execute): viene eseguita la computazione desiderata. Nell'ultimo passo dell'esecuzione viene incrementato il PC: tipicamente di uno se l'istruzione non era un salto condizionale, altrimenti l'incremento dipende dall'istruzione e dall'esito di questa</li>
         </ul>
         <p style="text-align:justify; padding: 10px 10px 40px 10px;">Questo ciclo elementare può essere migliorato in vari modi: per esempio, la decodifica di una istruzione può essere fatta contemporaneamente all'esecuzione della precedente e alla lettura dalla memoria della prossima (instruction prefetch) e lo stesso può essere fatto con i dati che si prevede saranno necessari alle istruzioni (data prefetch). La stessa esecuzione delle istruzioni può essere suddivisa in passi più semplici, da eseguire in stadi successivi, organizzando la unità di controllo e la ALU in stadi consecutivi, come delle catene di montaggio (pipeline''): in questo modo più istruzioni possono essere eseguite "quasi contemporaneamente", ciascuna occupando ad un certo istante uno stadio diverso della pipeline.</p>
-    </td>
-   </tr>
-  <table>
+   
+   </div>
  </body>
 </html>
