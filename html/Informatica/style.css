@@ -1,10 +1,17 @@
+/*Body e Menu principale*/
 body{
- background-color:#009999;
+  background-color:#009999;
 } 
 
 .main-menu {
- z-index:10;
+	z-index:10;
 }
+
+body>header {
+z-index:3;
+}
+
+/*MENU LATERALE*/
 
 #smc{
  background-color: #6666cc;
