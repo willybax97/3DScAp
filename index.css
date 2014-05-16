@@ -36,15 +36,19 @@ font-size: 4em;
 }
 
 body>article {
-    width:30%;
+    width:28%;
     background:#A3d;
     float:left;
     margin-top:1.5%;
     margin-left:1.5%;
-    height:20%;
+    height:18%;
+    padding:1%;
 }
 
 body>aside * {
     padding:1%;
     margin-top:2%;
+}
+a {
+	color:inherit;
 }
