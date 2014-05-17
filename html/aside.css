@@ -2,6 +2,8 @@ body {
   position:absolute;
 	margin:0;
     background:#AFD;
+    left:0;
+    right:0;
     bottom:0em;
     top:4em;
 }
@@ -10,7 +12,7 @@ body>aside{
 	position:relative;
 	background:#ADF;
 	float:left;
-	width:35%;
+	width:36%;
     min-height:100%;
     bottom:0;
 }
