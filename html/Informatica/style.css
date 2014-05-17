@@ -14,27 +14,27 @@ z-index:3;
 /*MENU LATERALE*/
 
 #smc{
- background-color: #6666cc;
- width: 22%;
- height: 100000%;
- position: fixed;
- top: 4em;
- left:0;
- z-index: 1;
+background-color: #6666cc;
+width: 22%;
+height: 100000%;
+position: fixed;
+top:0;
+left:0;
+z-index:1;
 }
 
 #sidebar {
- background-color: #6666cc;
- width: 22%;
- position: absolute;
- top: 4em;
- bottom:0;
- left:0;
- z-index: 2;
+background-color: #6666cc;
+width: 22%;
+position: absolute;
+top: 4em;
+bottom:0;
+left:0;
+z-index: 2;
 }
 #sbar{
- list-style-type: none;
- padding:0;
+list-style-type: none;
+padding:0;
 }
 #sbar li{
  width:100%;
@@ -79,12 +79,12 @@ z-index:3;
 
 /*content*/
 #content {
- width:76%;
- background-color: #009999;
- position: absolute;
- top: 4em;
- bottom:0;
- z-index: 1;
- left: 22%;
- padding: 1%;
+width:76%;
+background-color: #009999;
+position: absolute;
+top: 4em;
+bottom:0;
+z-index: 1;
+left: 22%;
+padding: 1%;
 }
