@@ -1,0 +1,26 @@
+body {
+  position:absolute;
+	margin:0;
+    background:#AFD;
+    bottom:0em;
+    top:4em;
+}
+
+body>aside{
+	position:relative;
+	background:#ADF;
+	float:left;
+	width:35%;
+    min-height:100%;
+    bottom:0;
+}
+
+body>aside * {
+    padding:0 2%;
+    margin-top:2%;
+    text-align:justify;
+}
+body>header {
+    position:absolute;
+    top:-4em;
+}
