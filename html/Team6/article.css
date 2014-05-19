@@ -1,4 +1,10 @@
-.introduction {
-  padding:1%;
-  
+body>h1, body>p {
+margin-right:1%;
+text-align:justify;
+word-break:keep-all;
+position:relative;
+z-index:100;
+}
+body>aside{
+    margin-right:1%;
 }
