@@ -5,6 +5,7 @@ body{
 
 .main-menu {
 	z-index:10;
+	position:absolute;
 }
 
 body>header {
